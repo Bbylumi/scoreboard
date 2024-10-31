@@ -1,0 +1,33 @@
+
+.form-inline{
+    width: 100%;
+    gap: 42px;
+    justify-content: center;
+  }
+
+  .form-inline .form-control {
+    display: inline-block;
+    width: 262px;
+    vertical-align: middle;
+}
+
+.text-center{
+    font-family: 'lato';
+    font-weight: 400;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 60px !important;
+}
+
+.btn{
+    font-family: 'lato';
+    color: #343A40;
+    font-weight: 600;
+    background-color: #FFC107;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #f8ba00;
+    color:#343A40;
+}

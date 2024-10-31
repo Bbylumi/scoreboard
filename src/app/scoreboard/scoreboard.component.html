@@ -1,0 +1,19 @@
+<div class="container mt-5">
+    <h2 class="text-center">Scoreboard</h2>
+    <a routerLink="/add-points"><button type="button" class="btn">Add Points</button></a>
+    <table class="table table-bordered scoreboard-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let player of scores">
+          <td>{{ player.name }}</td>
+          <td>{{ player.points }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

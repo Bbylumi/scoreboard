@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+
+.scoreboard-table {
+    margin-top: 20px;
+  }
+
+  .form-inline .dropdown-menu {
+    width: 100%;
+  }
+
+  .text-center {
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-family: 'lato';
+    text-decoration: underline;
+  }
+
+.btn{
+    font-family: 'lato';
+    color: #343A40;
+    font-weight: 600;
+    background-color: #FFC107;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #f8ba00;
+    color:#343A40;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1400px;
+    }
+}

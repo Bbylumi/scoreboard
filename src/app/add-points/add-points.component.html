@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <h2 class="text-center">Add Points</h2>
+    <div class="form-inline my-4">
+      <input 
+        type="text" 
+        [(ngModel)]="name" 
+        class="form-control mr-2" 
+        placeholder="Enter name" 
+        autocomplete="off"
+      />
+      <input 
+        type="number" 
+        [(ngModel)]="points" 
+        class="form-control mr-2" 
+        placeholder="Points"
+      />
+      <button class="btn btn-primary" (click)="addPoints()">Add Points</button>
+    </div>
+  </div>
+  
